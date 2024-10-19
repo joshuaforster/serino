@@ -1,0 +1,149 @@
+/* src/index.css */
+
+
+/* Existing imports */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Custom Swiper pagination styles for light mode */
+.swiper-pagination-bullet {
+  background: #000 !important;
+}
+
+/* Custom Swiper pagination styles for dark mode */
+.dark .swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.fixed {
+  z-index: 10000; /* Ensure this is high enough to be above all other components */
+}
+
+/* src/App.css */
+.app-container.fullscreen {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app-container.fullscreen > * {
+  display: none;
+}
+
+.app-container.fullscreen .fullscreen-content {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* In your main CSS file or index.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Custom Swiper pagination styles for light mode */
+.swiper-pagination-bullet {
+    background: #000 !important;
+  }
+  
+  /* Custom Swiper pagination styles for dark mode */
+  .dark .swiper-pagination-bullet {
+    background: #fff !important;
+  }
+
+  
+
+  .fixed {
+    z-index: 10000; /* Ensure this is high enough to be above all other components */
+  }
+
+  /* src/App.css */
+.app-container.fullscreen {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app-container.fullscreen > * {
+  display: none;
+}
+
+.app-container.fullscreen .fullscreen-content {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Custom Swiper pagination styles for light mode */
+.swiper-pagination-bullet {
+  background: #000 !important;
+}
+
+/* Custom Swiper pagination styles for dark mode */
+.dark .swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.fixed {
+  z-index: 10000; /* Ensure this is high enough to be above all other components */
+}
+
+/* src/App.css */
+.app-container.fullscreen {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app-container.fullscreen > * {
+  display: none;
+}
+
+.app-container.fullscreen .fullscreen-content {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.cookie-consent-button:hover {
+  background-color: #916333 !important;
+}
+
+@keyframes cloudMove {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.animate-clouds {
+  animation: cloudMove 600s linear infinite;
+}
+
+
+@keyframes busAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.animate-busAnimation {
+  animation: busAnimation 30s linear infinite;
+}
+
+
+.bg-grid-pattern {
+  background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23999999" fill-opacity="0.4" fill-rule="evenodd"%3E%3Cpath d="M0 39.5V40H.5h39H40v-.5V0h.5V0H40H0H-.5v.5V40h.5V39.5zm1-.5H39V1H1v38zm19-10.5V20h1v9h-1zm0-17v-1h1v9h-1zm10.5 8.5h9v1h-9v-1zM0 19.5h9v1H0v-1zm20 20h1v-9h-1v9zm0-38v9h1v-9h-1zm10.5 28.5h9v1h-9v-1zM0 29.5h9v1H0v-1zm30-19h1v9h-1v-9zm-38 0v9h1v-9H1z"%3E%3C/path%3E%3C/g%3E%3C/svg%3E');
+  background-size: 40px 40px;
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 5s linear infinite;
+}
