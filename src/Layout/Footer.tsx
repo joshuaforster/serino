@@ -1,6 +1,4 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { services } from '../Data/serviceData';
 
 const navigation = {
   nav: [
@@ -11,11 +9,7 @@ const navigation = {
     { name: 'Blog', href: '/blog', ariaLabel: 'Read our Blog' },
     { name: 'Contact', href: '/contact', ariaLabel: 'Get in touch with us on the Contact page' }
   ],
-  services: services.map(service => ({
-    name: `${service.title.charAt(0).toUpperCase() + service.title.slice(1).toLowerCase()}`,
-    href: `/services/${service.id}`,
-    ariaLabel: `${service.title}`
-  })),
+
   legal: [
     { name: 'Privacy Policy', href: '/privacypolicy', ariaLabel: 'Read our Privacy Policy, so you know how our cookies and tracking works' },
     { name: 'Terms & Conditions', href: '/termsandconditions', ariaLabel: 'Read our Terms & Conditions' },
@@ -27,7 +21,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="bg-gradient-to-br from-black to-gray-800 border-t-2 border-white" // High contrast dark gradient
+      className="bg-gradient-to-br from-black to-gray-800 border-t-2 border-white" 
       aria-labelledby="footer-heading"
     >
       <h2 id="footer-heading" className="sr-only">Footer</h2>
@@ -58,20 +52,6 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Services</h3>
-                <ul className="mt-6 space-y-4">
-                  {navigation.services.map((item) => (
-                    <li key={item.name}>
-                      <Link to={item.href} aria-label={item.ariaLabel} className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">Legal</h3>
                 <ul className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
@@ -83,6 +63,8 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
+            </div>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">Contact</h3>
                 <ul className="mt-6 space-y-4">
@@ -92,7 +74,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className="flex items-center space-x-2">
-                    <a href="mailto:ganoff@sampsonnco.com" className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
+                    <a href="mailto:info@serinodigital.com" className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
                       info@serinodigital.com
                     </a>
                   </li>
@@ -115,6 +97,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-  
-
 }
