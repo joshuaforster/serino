@@ -1,12 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import TestimonialSlider from "../PageComponents/HomeComponents/Reviews";
-import Process from "../PageComponents/HomeComponents/Process";
 import Logo from "../PageComponents/HomeComponents/logo";
-import BlogIntro from "../PageComponents/HomeComponents/BlogIntro";
 import Hero from "../PageComponents/HomeComponents/hero";
-import PrimaryFeatures from "../PageComponents/HomeComponents/PrimaryFeatures";
-import WhyUs from "../PageComponents/HomeComponents/WhyUs";
 import CTA2 from "../PageComponents/Universal/CTA2";
 import ProblemsSection from "../PageComponents/HomeComponents/SolvedProblems";
 
@@ -29,7 +25,7 @@ export default function Home() {
       {/* <BlogIntro /> */}
       {/* <CTA1 /> */}
       <TestimonialSlider />
-      <CTA2 />
+      <CTA2 /> 
     </>
   );
 }
