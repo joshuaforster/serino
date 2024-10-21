@@ -1,46 +1,85 @@
 import React from 'react';
 
-export default function TermsConditions() {
+const TermsOfService = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 md:grid-cols-12">
-        <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-4">Terms and Conditions</h1>
-        <div className="text-gray-700 dark:text-gray-400 space-y-4">
-          <p>Welcome to Serino Digital. By using our services, you agree to comply with and be bound by the following terms and conditions.</p>
+    <div>
+      <h1>Terms of Service</h1>
+      <p><strong>Last updated October 15, 2024</strong></p>
+      
+      <h2>AGREEMENT TO OUR LEGAL TERMS</h2>
+      <p>
+        We are Serino Digital ("Company," "we," "us," "our"), a company registered in the United Kingdom at [Your Address].
+        We operate the website <a href="https://serinodigital.com">serinodigital.com</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (collectively, the "Services").
+      </p>
+      <p>
+        You can contact us by phone at [Your Phone Number], email at [Your Email Address], or by mail to [Your Address].
+      </p>
+      <p>
+        These Legal Terms constitute a legally binding agreement made between you ("Client"), and Serino Digital, concerning your access to and use of our Services. By accessing our Services, you agree to these Legal Terms. If you do not agree, you are expressly prohibited from using the Services and must discontinue use immediately.
+      </p>
+      
+      <h2>1. OUR SERVICES</h2>
+      <p>
+        Serino Digital provides custom-coded web development services under a 12-month subscription agreement. Our websites are created specifically for tradespeople and are designed, hosted, and maintained on a subscription basis. This agreement outlines that all work produced, including code, remains our intellectual property.
+      </p>
+      <p>
+        Our project timelines are typically 6-7 weeks, assuming timely receipt of content and other information required from you, the Client.
+      </p>
+      
+      <h2>2. OWNERSHIP AND INTELLECTUAL PROPERTY</h2>
+      <p>
+        All website designs, code, and materials created by Serino Digital remain our property. You, the Client, are permitted to use the website during the subscription term but do not own the underlying code unless specifically agreed in writing. Upon termination, we retain all rights to the website and code.
+      </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">1. Services</h2>
-          <p>We provide custom web design, development, and ongoing support services. The specific services and deliverables will be agreed upon at the time of contract signing.</p>
+      <h2>3. PAYMENT TERMS</h2>
+      <p>
+        Payment is due on a monthly basis. Failure to make payments within 14 days may result in service suspension or project delays. Continued non-payment beyond 30 days may lead to termination of services and legal action.
+      </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">2. Project Scope and Revisions</h2>
-          <p>Our services include building a custom website and ongoing updates. Any additional revisions beyond the agreed scope may incur extra charges.</p>
+      <h2>4. PROJECT TIMELINE</h2>
+      <p>
+        Serino Digital will deliver the website within 6-7 weeks from the agreed start date, provided that the Client supplies the necessary materials in a timely manner. Any delays caused by the Client may result in extended project timelines.
+      </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">3. Payment</h2>
-          <p>Payment is due according to the agreed payment plan, either monthly or upfront. Invoices will be provided, and payments are expected upon receipt. We accept bank transfers and other agreed-upon methods.</p>
+      <h2>5. NON-PAYMENT CONSEQUENCES</h2>
+      <p>
+        Failure to make payments on time may result in:
+      </p>
+      <ul>
+        <li>Service suspension</li>
+        <li>Project delays</li>
+        <li>Legal action to recover the owed balance</li>
+      </ul>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">4. Cancellations and Termination</h2>
-          <p>If you wish to cancel or terminate our services, please provide at least 30 days' notice. Refunds for services will be evaluated based on the work completed up until the termination date.</p>
+      <h2>6. TERM AND TERMINATION</h2>
+      <p>
+        This agreement lasts for a minimum of 12 months. Either party may terminate the contract with 30 days’ written notice after the initial 12-month period. Early termination by the Client will incur charges for the remaining term.
+      </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">5. Satisfaction Guarantee</h2>
-          <p>We aim to deliver a website that meets your satisfaction. If you have any concerns or issues with the final product, please contact us within 7 days, and we will address the matter promptly.</p>
+      <h2>7. LIABILITY AND WARRANTY</h2>
+      <p>
+        Serino Digital guarantees that the website will function as described in the agreed specifications. However, we are not liable for third-party services such as hosting, plugins, or external software.
+      </p>
+      <p>
+        The Client is responsible for any content uploaded to the site and must ensure that it complies with UK laws.
+      </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">6. Liability</h2>
-          <p>While we take every precaution to deliver high-quality work, we are not liable for any damages caused by third-party hosting providers or external services. Serino Digital cannot be held responsible for any loss of revenue due to website downtime or security breaches unrelated to our work.</p>
+      <h2>8. MODIFICATIONS AND INTERRUPTIONS</h2>
+      <p>
+        Serino Digital reserves the right to modify or discontinue Services without notice. While we aim to maintain service uptime, we cannot guarantee continuous access and will not be liable for any interruptions.
+      </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">7. Privacy</h2>
-          <p>Your privacy is important to us. Please refer to our <a href="/privacy-policy" className="text-blue-600 dark:text-blue-400 hover:underline">Privacy Policy</a> for details on how we collect, use, and protect your personal information.</p>
+      <h2>9. GOVERNING LAW</h2>
+      <p>
+        These terms are governed by the laws of England and Wales. Any disputes shall be resolved in the courts of England.
+      </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">8. Changes to Terms</h2>
-          <p>We reserve the right to update or modify these terms and conditions at any time. Any changes will be posted on our website, and it is your responsibility to review them periodically.</p>
-
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">9. Contact Us</h2>
-          <p>If you have any questions or concerns about these terms and conditions, please contact us at:</p>
-          <ul className="list-inside">
-            <li><strong>Phone:</strong> <a href="tel:07342367824" className="text-blue-600 dark:text-blue-400 hover:underline">07342 367824</a></li>
-            <li><strong>Email:</strong> <a href="mailto:info@serinodigital.com" className="text-blue-600 dark:text-blue-400 hover:underline">info@serinodigital.com</a></li>
-            <li><strong>Address:</strong> <span className="text-gray-900 dark:text-gray-300">Norwich, England</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      <h2>10. CONTACT US</h2>
+      <p>
+        If you have any questions regarding these terms, you can contact us at <a href="mailto:[Your Email Address]">[Your Email Address]</a> or by mail at [Your Address].
+      </p>
+    </div>
   );
-}
+};
+
+export default TermsOfService;

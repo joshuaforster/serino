@@ -4,9 +4,10 @@ import Button from '../../CustomComponents/buttons';
 
 const videos = [
   '/images/4702559-hd_1920_1080_24fps.mp4',
-  '/images/4135408-hd_1920_1080_30fps.mp4',
-  '/images/5594432-uhd_3840_2160_25fps.mp4',
   '/images/5554470-hd_1280_720_24fps.mp4',
+  '/images/coverr-backyard-gardening-8168-1080p.mp4',
+  // '/images/4135408-hd_1920_1080_30fps.mp4',
+  // '/images/5594432-uhd_3840_2160_25fps.mp4',
 ];
 
 export default function Hero() {
