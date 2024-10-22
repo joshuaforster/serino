@@ -23,7 +23,7 @@ const Contact = lazy(() => import('./MainPages/contact'));
 const ServiceDetail = lazy(() => import('./CustomComponents/serviceDetail'));
 const ServicesHome = lazy(() => import('./MainPages/servicesHome'));
 const TermsConditions = lazy(() => import('./MainPages/Legal/TermsConditions'));
-const PrivacyPolicy = lazy(() => import('./MainPages/Legal/privacypolicy'));
+
 const BlogList = lazy(() => import('./MainPages/blogs/BlogList'));
 const BlogPostComponent = lazy(() => import('./MainPages/blogs/BlogPost'));
 const Pricing = lazy(() => import('./PageComponents/HomeComponents/Pricing'))
@@ -57,7 +57,7 @@ function App() {
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/portfolio/:id" element={<PortfolioDetail />} /> {/* Specific project holder */}
-                  <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+      
                   <Route path="/termsandconditions" element={<TermsConditions />} />
                   <Route path="*" element={<Unfound />} />
                 </Route>

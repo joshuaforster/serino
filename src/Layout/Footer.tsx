@@ -70,7 +70,7 @@ export default function Footer() {
                 <ul className="mt-6 space-y-4">
                   <li className="flex items-center space-x-2">
                     <a href="tel:07477534661" className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
-                      07477 534661
+                      074778 534661
                     </a>
                   </li>
                   <li className="flex items-center space-x-2">
