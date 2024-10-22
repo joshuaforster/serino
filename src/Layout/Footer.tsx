@@ -1,4 +1,6 @@
+
 import { Link } from 'react-router-dom';
+
 
 const navigation = {
   nav: [
@@ -10,8 +12,9 @@ const navigation = {
     { name: 'Contact', href: '/contact', ariaLabel: 'Get in touch with us on the Contact page' }
   ],
 
+
   legal: [
-    // { name: 'Privacy Policy', href: '/privacypolicy', ariaLabel: 'Read our Privacy Policy, so you know how our cookies and tracking works' },
+    { name: 'Privacy Policy', href: '/privacypolicy', ariaLabel: 'Read our Privacy Policy, so you know how our cookies and tracking works' },
     { name: 'Terms & Conditions', href: '/termsandconditions', ariaLabel: 'Read our Terms & Conditions' },
   ],
 };
@@ -21,7 +24,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="bg-gradient-to-br from-black to-gray-800 border-t-2 border-white" 
+      className="bg-gradient-to-br from-black to-gray-800 border-t-2 border-white" // High contrast dark gradient
       aria-labelledby="footer-heading"
     >
       <h2 id="footer-heading" className="sr-only">Footer</h2>
@@ -52,6 +55,20 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
+                <h3 className="text-sm font-semibold leading-6 text-white">Services</h3>
+                <ul className="mt-6 space-y-4">
+                  {/* {navigation.services.map((item) => (
+                    <li key={item.name}>
+                      <Link to={item.href} aria-label={item.ariaLabel} className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))} */}
+                </ul>
+              </div>
+            </div>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">Legal</h3>
                 <ul className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
@@ -63,18 +80,16 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">Contact</h3>
                 <ul className="mt-6 space-y-4">
                   <li className="flex items-center space-x-2">
                     <a href="tel:07477534661" className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
-                      074778 534661
+                      07477 534661
                     </a>
                   </li>
                   <li className="flex items-center space-x-2">
-                    <a href="mailto:info@serinodigital.com" className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
+                    <a href="mailto:ganoff@sampsonnco.com" className="text-sm leading-6 text-white hover:text-customGold transition duration-300">
                       info@serinodigital.com
                     </a>
                   </li>
@@ -97,4 +112,6 @@ export default function Footer() {
       </div>
     </footer>
   );
+  
+
 }

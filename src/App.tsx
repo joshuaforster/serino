@@ -1,6 +1,6 @@
 // src/App.tsx
 import React, { Suspense, lazy } from 'react';
-
+import { Link } from 'react-router-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CookieConsent from 'react-cookie-consent';
 import Layout from './Layout/layout';
@@ -73,7 +73,14 @@ function App() {
               expires={150}
             >
               This website uses cookies to enhance the user experience.{" "}
-
+              <Link
+                to="/privacy-policy"
+                aria-label="Read our Privacy Policy to understand how we use cookies and tracking"
+                style={{ color: "white" }}
+                className="hover:text-customBlue bg-gray-950"
+              >
+                Learn more
+              </Link>
             </CookieConsent>
           </BrowserRouter>
         </ProjectsProvider>
