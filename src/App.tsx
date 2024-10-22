@@ -73,14 +73,7 @@ function App() {
               expires={150}
             >
               This website uses cookies to enhance the user experience.{" "}
-              <Link
-                to="/privacy-policy"
-                aria-label="Read our Privacy Policy to understand how we use cookies and tracking"
-                style={{ color: "white" }}
-                className="hover:text-customBlue bg-gray-950"
-              >
-                Learn more
-              </Link>
+
             </CookieConsent>
           </BrowserRouter>
         </ProjectsProvider>
