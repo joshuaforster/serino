@@ -1,6 +1,6 @@
 // src/App.tsx
 import React, { Suspense, lazy } from 'react';
-import { Link } from 'react-router-dom';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CookieConsent from 'react-cookie-consent';
 import Layout from './Layout/layout';
