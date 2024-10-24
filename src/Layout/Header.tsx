@@ -29,7 +29,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full font-oswald bg-white shadow-md lg:top-4 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:w-[95%] z-50 lg:shadow-lg lg:rounded-md lg:border lg:border-gray-300 py-3">
+    <header className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[95%] font-oswald bg-white shadow-lg rounded-md border border-gray-300 py-3 z-50">
       <nav className="px-4 lg:px-6 py-3">
         <div className="flex items-center justify-between mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center" onClick={() => handleLinkClick('#hero')}>
