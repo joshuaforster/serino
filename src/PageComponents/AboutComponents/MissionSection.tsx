@@ -3,12 +3,12 @@ import { InboxIcon, TrashIcon, UsersIcon } from '@heroicons/react/24/outline'
 const features = [
   {
     name: 'Enquire',
-    description: 'We’ll have an informal chat to get to know your business. Through Zoom, phone, or in-person, we’ll discuss your needs and how we can best serve you.',
+    description: 'We’ll have an informal chat to get to know your business. We’ll discuss your needs and how we can best serve you.',
     icon: InboxIcon,
   },
   {
     name: 'Design & Proposal',
-    description: 'Receive a Figma mockup and proposal based on our chat. Once you’re happy with the mockup, we’ll move forward with a proposal and a contract for approval.',
+    description: 'We will send you a mockup. Once you’re happy with the mockup, we’ll move forward with a proposal and a contract for approval.',
     icon: UsersIcon,
   },
   {

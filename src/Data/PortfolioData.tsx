@@ -15,9 +15,9 @@ export const portfolioData: PortfolioItem[] = [
     title: 'Lambert & Wright',
     liveLink: 'https://lambertandwright.co.uk',
     images: [
-      '/images/lambertportfolio.png',
-      '/images/lambertportfolio.png',
-      '/images/lambertportfolio.png',
+      '/images/LambertPortfolio1.png',
+      '/images/LambertPortfolio2.png',
+      '/images/LambertPortfolio3.png',
     ],
     description: [
       "Lambert & Wright came to us looking for a website that matched the quality of their work. ",
@@ -34,9 +34,9 @@ export const portfolioData: PortfolioItem[] = [
     title: 'Sampson N CO',
     liveLink: 'https://www.sampsonnco.com',
     images: [
-      '/images/Sampson N Co.png',
-      '/images/Sampson N Co.png',
-      '/images/Sampson N Co.png',
+      '/images/SampsonPortfolio1.png',
+      '/images/SampsonPortfolio2.png',
+      '/images/SampsonPortfolio3.png',
     ],
     description: [
       "Sampson N CO, based in Norwich, offers bespoke kitchen and bathroom solutions. They provide high-quality designs and installations, ensuring each space is both functional and beautifully crafted.",

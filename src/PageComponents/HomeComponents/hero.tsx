@@ -6,8 +6,6 @@ const videos = [
   '/images/4702559-hd_1920_1080_24fps.mp4',
   '/images/5554470-hd_1280_720_24fps.mp4',
   '/images/coverr-backyard-gardening-8168-1080p.mp4',
-  // '/images/4135408-hd_1920_1080_30fps.mp4',
-  // '/images/5594432-uhd_3840_2160_25fps.mp4',
 ];
 
 export default function Hero() {
@@ -16,7 +14,7 @@ export default function Hero() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videos.length);
-    }, 15000); // Switch video every 30 seconds (adjust as needed)
+    }, 15000); // Switch video every 15 seconds
 
     return () => clearInterval(intervalId);
   }, []);
@@ -76,8 +74,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-6 flex flex-col items-center w-full">
+      {/* Scroll Indicator - Hidden on mobile and tablet */}
+      <div className="hidden lg:flex absolute bottom-6 flex-col items-center w-full">
         <div className="mouse-scroll">
           <div className="mouse">
             <span className="scroll"></span>

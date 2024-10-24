@@ -2,6 +2,8 @@ import { useParams, Link } from 'react-router-dom';
 import { portfolioData, PortfolioItem } from '../../Data/PortfolioData';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 export default function PortfolioDetail() {
   const { id } = useParams<Record<string, string | undefined>>();
@@ -46,8 +48,14 @@ export default function PortfolioDetail() {
           </a>
         </div>
 
+        {/* Hint to scroll/swipe through the images */}
+        <div className="text-center mb-4 text-brandBlue dark:text-gray-300">
+          <p>Scroll through the gallery below to explore the project images</p>
+        </div>
+
+        {/* Swiper with pagination and looping */}
         <div className="mb-8">
-          <Swiper spaceBetween={10} slidesPerView={1}>
+          <Swiper spaceBetween={10} slidesPerView={1} loop={true} pagination={{ clickable: true }}>
             {project.images.map((image, index) => (
               <SwiperSlide key={index}>
                 <img src={image} alt={`Project ${index + 1}`} className="w-full h-auto" />
@@ -73,17 +81,6 @@ export default function PortfolioDetail() {
               </li>
             ))}
           </ul>
-        </div>
-
-        <div className="text-center">
-          <a
-            href={project.liveLink}
-            className="text-brandBlue dark:text-brandBlue hover:text-brandOrange dark:hover:text-brandOrange font-semibold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Live Project &rarr;
-          </a>
         </div>
       </div>
     </section>

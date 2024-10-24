@@ -14,7 +14,7 @@ export default function PerformanceSection() {
               We Build <span className="text-brandBlue">Better</span> Websites That Perform
             </h1>
             <p className="text-lg mb-6 text-left">
-              When it comes to website load times, not many can get the Google PageSpeed scores we achieve. Test your website load times with Google PageSpeed Insights and see how it compares to our results.
+            When it comes to website load times, we strive to produce the shortest load times possible. 
             </p>
             <div className="space-y-6 text-left">
               <div className="flex items-center space-x-4">
@@ -30,11 +30,11 @@ export default function PerformanceSection() {
               </div>
               <div className="flex items-center space-x-4">
                 <DevicePhoneMobileIcon className='mt-1 h-6 w-6 text-brandBlue'/>
-                <p>Our sites load instantly in under 1 second, improving user experience and conversions.</p>
+                <p>We strive to make our sites load in under 1 second, improving user experience and conversions.</p>
               </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row mt-8 lg:space-x-8 text-left">
+            {/* <div className="flex flex-col lg:flex-row mt-8 lg:space-x-8 text-left">
               <div className="flex flex-col items-start space-y-2">
                 <p className="text-5xl font-bold text-brandOrange">100%</p>
                 <p className="text-sm">Satisfaction Guaranteed</p>
@@ -47,7 +47,7 @@ export default function PerformanceSection() {
                 <p className="text-5xl font-bold text-brandOrange">5/5</p>
                 <p className="text-sm">Google Reviews</p>
               </div>
-            </div>
+            </div> */}
 
             <a href="/get-started" className="mt-8 inline-block bg-brandOrange text-brandBlue font-bold py-3 px-6 rounded-sm hover:bg-opacity-90 text-left">
               Get Started Today

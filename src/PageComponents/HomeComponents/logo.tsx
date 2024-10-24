@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React from 'react';
 
 const logos = [
   "images/logos/[removal.ai]_cf4611e9-5a39-49b2-9fef-23de702a2fe5-logogrey-66a388691126f 1.png",
@@ -7,34 +7,9 @@ const logos = [
 ];
 
 export default function Logo() {
-  const [isVisible, setIsVisible] = useState(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (sectionRef.current) {
-        const { top } = sectionRef.current.getBoundingClientRect();
-        const windowHeight = window.innerHeight;
-        if (top < windowHeight * 0.9) {
-          setIsVisible(true);
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Check visibility on initial render
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
-    <section className="bg-white transition-colors duration-500 border-t border-b border-gray-200">
-      <div
-        ref={sectionRef}
-        className={`py-12 mx-auto max-w-screen-xl px-6 lg:px-8 transition-opacity duration-1000 transform ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-        }`}
-      >
+    <section className="bg-white border-t border-b border-gray-200">
+      <div className="py-12 mx-auto max-w-screen-xl px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
           {/* Left Text */}
           <div className="col-span-2">

@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function CTA2() {
   return (
-    <section className="bg-white dark:bg-gray-900 pt-16">
-      <div className="mx-auto max-w-7xl sm:px-6 pb-32 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-brandBlue px-6 pt-16 shadow-2xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+    <section className="bg-white dark:bg-gray-900 pt-16 h-screen flex items-center justify-center">
+      <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 w-full">
+        <div className="relative isolate overflow-hidden bg-brandBlue px-6 pt-16 pb-16 shadow-2xl sm:px-16 md:pt-24 lg:px-24">
           <svg
             viewBox="0 0 1024 1024"
             aria-hidden="true"
@@ -18,17 +18,17 @@ export default function CTA2() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="mx-auto max-w-md text-center z-1000 lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+          <div className="mx-auto max-w-md text-center z-1000">
             <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">
               Simple, Clean, and Fast Websites Coded Just for Your Business
             </h2>
             <p className="mt-6 text-lg leading-8 text-white dark:text-white">
               We specialise in custom websites that focus on simplicity, speed, and functionality. No gimmicks—just quality code.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+            <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="/contact"
-                className=" bg-white dark:bg-gray-800 px-3.5 py-2.5 text-sm font-semibold text-gray-900 dark:text-white shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="bg-white dark:bg-gray-800 px-3.5 py-2.5 text-sm font-semibold text-gray-900 dark:text-white shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Contact Us
               </a>
@@ -37,15 +37,6 @@ export default function CTA2() {
               </a>
             </div>
           </div>
-          <figure className="relative mt-16 h-80 lg:mt-8">
-            <img
-              alt="Screenshot of Lambert portfolio showcasing custom web design work"
-              src="images/lambertportfolio.png"
-              width={1824}
-              height={1080}
-              className="absolute left-0 top-0 w-[57rem] max-w-none"
-            />
-          </figure>
         </div>
       </div>
     </section>

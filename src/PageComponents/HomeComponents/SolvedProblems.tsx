@@ -4,7 +4,7 @@ export default function ProblemsSection() {
   const problems = [
     {
       headline: "Your website isn’t converting visitors into clients",
-      detail: "We build websites that are designed to turn visitors into paying clients, whether you’re a builder, electrician, or decorator. Our focus is on helping you grow your business with a site that works for you.",
+      detail: "We build websites that turn visitors into paying clients. Whether you’re a builder, electrician, or decorator. Our focus is on helping you grow your business with a site that works for you.",
     },
     {
       headline: "Your business isn’t showing up in search results",
@@ -12,19 +12,19 @@ export default function ProblemsSection() {
     },
     {
       headline: "You’re tired of using one-size-fits-all website builders",
-      detail: "Web builders like Wix or Squarespace may seem easy, but they don’t offer the customisation and flexibility your business needs to stand out. We build custom websites tailored to your trade, saving you time and effort.",
+      detail: "Web builders like Wix may seem easy, but they don’t offer the flexibility to allow your business to stand out. We build custom websites tailored to your trade, saving you time and effort.",
     },
     {
       headline: "Your website doesn’t work well on mobile devices",
-      detail: "Many of your potential clients are searching for services on their phones. We ensure your site is fully mobile-responsive, so it looks and works great on any device, helping you avoid missed opportunities.",
+      detail: "Many of your potential clients are searching for services on their phones. We ensure your site is mobile-responsive. This allows it to work great on any device, preventing missed opportunities.",
     },
     {
       headline: "Your website is outdated and slow",
-      detail: "A slow or outdated website reflects poorly on your business, no matter what services you provide. We upgrade your site to ensure it’s fast, modern, and user-friendly, improving your customer experience.",
+      detail: "A slow or outdated website gives a poor reflection on your business. We upgrade your site to ensure it’s fast, modern, and friendly for users. We aim to improve your customer experience.",
     },
     {
       headline: "You don’t have time to manage your website",
-      detail: "Running a business leaves little time for website upkeep. Let us handle the updates, so you can focus on your trade while we ensure your site runs smoothly and efficiently.",
+      detail: "Running a business leaves little time for website upkeep. Let us handle the updates, so you can focus on your trade. We will ensure you have a smooth and efficient website, whilst you focus on what you do best.",
     },
   ];
 

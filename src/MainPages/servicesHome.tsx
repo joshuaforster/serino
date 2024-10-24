@@ -11,7 +11,7 @@ export default function ServicesHome() {
       <ServiceFeature
   title="Hosting, Domain, and Email Package"
   description="A Complete Solution For Your Business & Portfolio."
-  subText="Our package includes fast, secure hosting, domain registration, and email setup. Your website will serve as a professional portfolio, making it easy for clients to browse and view your past projects, helping you showcase your expertise and attract more business."
+  subText="Our package includes fast, secure hosting, domain registration, and email setup. Your website will serve as a professional portfolio. This makes it easy for clients to browse and view your past projects. This will help you showcase your expertise and attract more business."
   mainImage="/images/design2.png"
   backgroundClass="bg-white"
   reverse={false}
@@ -25,7 +25,7 @@ export default function ServicesHome() {
 <ServiceFeature
   title="Web Design & Development"
   description="Beautiful, Custom Websites Built For Performance."
-  subText="We tailor our web design and development to your business’s needs, ensuring your website looks and performs flawlessly on all devices, from phones to laptops. Our clean, efficient code guarantees fast load times and a seamless user experience, helping you showcase your business professionally across any platform."
+  subText="We tailor our web design and development to your business’s needs. We ensure your website looks and performs well on all devices, from phones to laptops. Our  code ensures fast load times and a simple user experience. We aim to showcase your business in a professional capacity across any platform."
   mainImage="/images/designres.png"
   backgroundClass="bg-gray-100"
   reverse={true}

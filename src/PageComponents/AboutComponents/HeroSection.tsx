@@ -11,7 +11,7 @@ export default function Example() {
             Your Business Deserves Better
           </h1>
           <p className="mt-6 text-xl leading-8 text-gray-700">
-            Tools like Wix or Squarespace might seem tempting with their quick results, but they offer a one-size-fits-all approach. Serino custom builds everything so it works best for your trade, ensuring long-term value.
+          Tools like Wix might seem tempting, but they offer a one-size-fits-all approach. Serino custom builds everything so it works best for your trade. This ensures long-term value.
           </p>
         </div>
 
@@ -43,13 +43,13 @@ export default function Example() {
               <li className="flex gap-x-3">
                 <CloudArrowUpIcon className="mt-1 h-6 w-6 text-brandBlue animate-pulse" />
                 <span>
-                  <strong className="font-semibold text-gray-900">Tailored to Your Business.</strong> Custom websites are like getting a tailored suit—they’re made to fit your business perfectly, with no off-the-shelf solutions.
+                  <strong className="font-semibold text-gray-900">Tailored to Your Business.</strong> Custom websites are like getting a tailored suit. They’re made to fit your business's specific needs, with no off-the-shelf solutions.
                 </span>
               </li>
               <li className="flex gap-x-3">
                 <LockClosedIcon className="mt-1 h-6 w-6 text-brandBlue animate-bounce" />
                 <span>
-                  <strong className="font-semibold text-gray-900">Speed & Reliability.</strong> Optimised for speed and reliability, ensuring your site runs smoothly across devices, unlike clunky template-based sites.
+                  <strong className="font-semibold text-gray-900">Speed & Reliability.</strong> We optimise for speed and reliability. We aim to ensure your site has a smooth user experience across all devices. 
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -60,7 +60,7 @@ export default function Example() {
               </li>
             </ul>
             <p className="mt-8">
-              Our focus is on delivering fast, responsive, and visually stunning websites that give your business the tools it needs to thrive online.
+            Our focus is on delivering fast, responsive, and clean websites. We want to give your business the tools it needs to thrive online.
             </p>
           </div>
         </div>
