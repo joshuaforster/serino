@@ -15,24 +15,16 @@ export default function Contact() {
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-brandBlue dark:text-white">Contact Us</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              You can reach us via phone, email, or visit us in Norwich. We're always here to help.
+              You can reach us via phone, whattsapp or email. We're always here to help.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600 dark:text-gray-300">
-              <div className="flex gap-x-4">
-                <dt className="flex-none">
-                  <FaMapMarkerAlt aria-hidden="true" className="h-7 w-6 text-brandBlue" />
-                </dt>
-                <dd>
-                  Norwich, England
-                </dd>
-              </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <FaPhone aria-hidden="true" className="h-7 w-6 text-brandBlue" />
                 </dt>
                 <dd>
-                  <a href="tel:07477534661" className="hover:text-brandOrange">
-                    07477 534661
+                  <a href="tel:07743978158" className="hover:text-brandOrange">
+                    07743 978158
                   </a>
                 </dd>
               </div>
