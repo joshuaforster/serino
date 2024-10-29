@@ -23,7 +23,7 @@ export default function Hero() {
   const { ref: paragraphRef } = useInView({ triggerOnce: true });
 
   return (
-    <div className="relative isolate overflow-hidden h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
+    <div className="relative isolate overflow-hidden h-[90vh] pt-12 flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
       {/* Background Video */}
       <div className="absolute inset-0 -z-10 w-full h-full">
         <video
