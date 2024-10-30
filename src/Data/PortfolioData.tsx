@@ -43,7 +43,7 @@ export const portfolioData: PortfolioItem[] = [
       "Their original website lacked modern design and was difficult to navigate, leading to potential clients missing out on important information. We redesigned the website with a clean, user-friendly interface that makes it easy for clients to explore Sampson N CO's services and portfolio.",
       "The new design highlights their craftsmanship, allowing users to browse their projects effortlessly. The website's performance has been improved, and it is now fully responsive across all devices."
     ],
-    technologies: ['Vue', 'Bootstrap', 'Firebase'],
+    technologies: ['React', 'Tailwind CSS', 'Typescript'],
     githubLink: 'https://github.com/username/repo2',
     featureImage: '/images/Sampson N Co.png',
   },
