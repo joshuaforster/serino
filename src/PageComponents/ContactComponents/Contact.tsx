@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
 export default function Contact() {
 
